@@ -4,7 +4,7 @@ module.exports = function(grunt) {
       build: {
         files: {
           'build/ace-editor-wrapper.min.js': 'dist/ace-editor-wrapper.js',
-          'build/ace-markdown-plus': 'dist/ace-markdown-plus.js',
+          'build/ace-markdown-plus.min.js': 'dist/ace-markdown-plus.js',
           // 'build/ace-editor.min.js': 'node_modules/ace-builds/src-min/*.js',
           'build/ace.min.js': 'node_modules/ace-builds/src-min-noconflict/ace.js',
           'build/snippets.min.js': 'node_modules/ace-builds/src-min-noconflict/snippets/*.js',
